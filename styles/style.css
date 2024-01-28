@@ -6,6 +6,16 @@
     font-family: 'Mulish', sans-serif;
     
 }
+.btn-primary{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    border: none;
+    padding: 15px 35px;
+    font-size: 1.25rem;
+
+}
+
 
 /* Header part start */
 
@@ -57,83 +67,88 @@ nav{
 /* Header Banner part start */
 
 .header-banner{
-   background:  linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) ,
-    url('../Images/Group\ 13\ \(1\)\ \(1\).png');
-
-   background-repeat: no-repeat; 
-   border-radius: 16px;             
-   width: 1170px;
-   height: 500px;
-   margin: 0px auto;
-   margin-bottom: 0px;
-                
-    
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) ,
+     url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    height: 500px;
+    max-width: 1170px;
+    border-radius: 16px;
+    margin: 50px auto;
 }
-.header-banner-content > h1{
+.banner-content{
+   text-align: center;
+    padding: 100px 130px;
+
+}
+.banner-content .banner-heading{
     color: #FFF;
     font-size: 4rem;
     font-weight: 800;
-    margin-bottom: 0px;
 }
-.header-banner-content > p{
+.banner-content .banner-description{
     color: #FFF;
     font-size: 1rem;
-    font-weight: 400;
-    width: 676px;
-    margin: 25px auto;
-}
-.header-banner-input input{
-    border-radius: 8px;
-    width: 175px;
-    height: 50px;
-    padding-left: 15px;
-    margin-right: 25px;
-    border: none;
-
-   
-}
-.header-banner-input input::placeholder{
-    color: rgba(24, 22, 19, 0.5);
-    font-size: 1rem;
-    font-weight: 400;
-
-}
-
-.header-banner-input .banner-btn{
-    background: #FF5400;
     text-align: center;
-    width: 175px;
+
+}
+.banner-input input{
+    width: 170px;
     height: 50px;
     border-radius: 8px;
+    background: #FFF;
     border: none;
-    color: #FFF;
-    font-weight: 700;
-    font-size: 1rem;
-    
-  
+    padding-left: 15px;
+    margin-right: 20px    
 }
-.header-banner-input .search-icon{
-    margin-right: 5px;
-    width: 24px;
-    height: 24px;
-    
-}
-
-.header-banner-input{
+.banner-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    margin-top: 50px;
-    padding: 15px;
-    padding-right: 0px;
+    padding: 16px;
+
+}
+.banner-input input::placeholder{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+/* main part start */
+
+main{
+    max-width: 1170px;
+    margin: 100px auto;
+}
+/* Our popular tour */
+
+.our-popular-tour{
+    display: flex;
     
 }
-.header-banner-content{
-    text-align: center;
-    padding:100px 120px ;
-
+.first-section-first-column{
+    padding-right: 55px;
+    gap: 25px;
 }
-
-
+.first-section-second-column img{
+    border-radius: 16px;
+    
+}
+.first-section-first-column > h1{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.first-section-first-column p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    
+}
+.first-section-first-column .button-one{
+    margin-top: 40px;
+}
 
 
 
@@ -151,9 +166,62 @@ nav{
 /* Responsive media queries */
 
 @media screen and (max-width:600px) {
+  
+nav ,
+.our-popular-tour,
+.banner-input
+{
+    flex-direction: column;
+}
+.nav-2nd-part ul li{
+    margin-right: 10px;
+}
+.nav-1st-part h1{
+    padding-right: 230px;
+    font-size: 1.4rem;
     
+}
+.nav-2nd-part {
+    padding-right: 35px;
+   
+}
+.header-banner{
+    width: 100%;
+}
+.banner-content .banner-heading{
+    color: #FFF;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+.banner-content .banner-description{
+    color: #FFF;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.banner-content{
+    padding: 20px 25px;
+}
+.banner-input{
+    gap: 20px;
+    
+}
+.banner-btn{
+    width: 270px;
+}
+.banner-input input{
+   margin-right: 0px;
+   width: 250px;
+}
 
 
+.first-section-first-column{
+    padding-left:20px ;
+}
+
+.first-section-second-column img{
+    width: 100%;
+    margin-top: 40px;  
+}
 
 
 }
