@@ -150,6 +150,49 @@ main{
     margin-top: 40px;
 }
 
+/* Choose Your Destination */
+
+.second-section-first-part > h1{
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 100px;
+}
+.second-section-first-part > p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 40px 265px;
+
+}
+.second-section-img-part{
+    display: grid;
+}
+
+.second-section-img-first-line{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+.second-section-img-second-line{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+.second-section-img-third-line{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.25rem;
+}
+
+
+
+
+
 
 
 
@@ -222,6 +265,34 @@ nav ,
     width: 100%;
     margin-top: 40px;  
 }
+
+.second-section-img-part img{
+    width: 100%;
+    
+}
+.second-section-img-first-line{
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+
+}
+.second-section-img-second-line{
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+    
+}
+.second-section-img-third-line{
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+    
+}
+.second-section-img-part img{
+    height: 176px;
+}
+.second-section-first-part img{
+    font-size:1.25rem ;
+}
+    
+
 
 
 }
