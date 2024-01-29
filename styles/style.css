@@ -189,9 +189,66 @@ main{
     gap: 1.25rem;
 }
 
+/* Why Choose Us */
 
+.third-section-text-part h1{
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 100px;
+}
+.third-section-text-part p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 40px 265px;
+}
+.third-section-card-h2{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.third-section-card-p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.third-section-card-one{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    max-width: 570px;
+    max-height: 280px;
+    padding: 20px 15px;
+}
+.third-section-card-two{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    max-width: 570px;
+    max-height: 280px;
+    padding: 20px 15px;
+}
+.third-section-card-three{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    max-width: 570px;
+    max-height: 280px;
+    padding: 20px 15px;
+}
+.third-section-card-second-line{
+    display: grid;
+    margin: 25px 300px;
+}
 
-
+.third-section-card-first-line{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+}
 
 
 
@@ -255,16 +312,23 @@ nav ,
    margin-right: 0px;
    width: 250px;
 }
-
+main{
+    margin-top: 30px;
+}
 
 .first-section-first-column{
     padding-left:20px ;
+    
 }
-
+.first-section-first-column h1{
+    font-size: 1.25rem;
+}
 .first-section-second-column img{
     width: 100%;
     margin-top: 40px;  
 }
+
+/* Second Section */
 
 .second-section-img-part img{
     width: 100%;
@@ -285,8 +349,34 @@ nav ,
     width: 100%;
     
 }
-    
+ .second-section-first-part p{
+    margin: 20px 5px;
+ }   
+ .second-section-first-part h1{
+    font-size: 1.25rem;
+    margin-top: 30px;
+ }
 
+
+ /* Third Section */
+
+
+ .third-section-text-part h1{
+    font-size: 1.5rem;
+    margin-top: 30px;
+ }
+ .third-section-text-part p{
+    margin: 10px;
+ }
+ .third-section-card-first-line{
+    grid-template-columns: repeat(1,1fr);
+    margin: 5px;
+    margin-top: 20px;
+ }
+ .third-section-card-second-line{
+    margin: 5px;
+    margin-top: 25px;
+ }
 
 
 }
