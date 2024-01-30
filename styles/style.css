@@ -25,6 +25,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 55px 135px;
+    width: 100%;
 }
 .nav-1st-part{
     display: flex;
@@ -351,8 +352,8 @@ main{
 @media screen and (max-width:600px) {
 
     nav{
-        max-width: 370;
-        margin: 55px -100px;
+        width: 350px;
+        margin: 55px 0px;
         padding-left: 50px;
     }
 nav ,
@@ -380,10 +381,7 @@ nav ,
     font-size: 1.4rem;
    
 }
-.nav-2nd-part {
-    /* padding-right: 50px; */
-   
-}
+
 .header-banner{
     width: 95%;
 }
