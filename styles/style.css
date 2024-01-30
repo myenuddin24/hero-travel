@@ -273,7 +273,7 @@ main{
     background: url('../Images/Group\ 39.png');
     background-repeat: no-repeat;
     height: 500px;
-    padding: 55px 55px 55px 600px;
+    padding: 55px 55px 5px 600px;
 
 }
 .four-section-img-background{
@@ -306,16 +306,6 @@ main{
     font-weight: 800;
 }
 
-.four-section-img-background > button{
-    border-radius: 8px;
-    background: #FF5400;
-    color: #FFF;
-    text-align: center;
-    font-size: 1.25rem;
-    font-weight: 800;
-    padding: 15px 25px;
-    border: none;
-}
 .fa{
     color: #FF5400;
     margin-right: 10px;
@@ -330,15 +320,60 @@ main{
     background: url('../Images/Group\ 40.png');
     background-repeat: no-repeat;
     height: 500px;
-    padding: 55px 600px 55px 55px;
+    padding: 55px 600px 5px 55px;
     
 }
+.four-section-footer-btn{
+    margin: 0px 460px;
+}
+
+/* A Simple Perfect Place To Get Lost */
 
 
+.five-section{
+    display: flex;
+    gap: 30px;
+    margin-top: 100px;
+}
 
-
-
-
+.five-section-column-one > h1{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    
+}
+.five-section-column-one > .five-section-p1{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.five-section-column-one > .five-section-p2{
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+    gap: 15px;
+}
+.five-section-column-two img{
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+}
+.five-section-btn{
+    margin-top: 25px;
+}
+.five-section-column-two{
+    position: relative;
+}
+.five-section-column-two > h3{
+    position: absolute;
+    top: 175px;
+    left: 165px;
+    right: 165px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
 
 
 
@@ -358,7 +393,8 @@ main{
     }
 nav ,
 .our-popular-tour,
-.banner-input
+.banner-input ,
+.five-section
 {
     flex-direction: column;
 }
@@ -384,6 +420,7 @@ nav ,
 
 .header-banner{
     width: 95%;
+    margin: 10px;
 }
 .banner-content .banner-heading{
     color: #FFF;
@@ -511,19 +548,39 @@ main{
     padding: 20px;
     width: 70%;
     margin-top: 60px;
-    margin-left: 30px;
-   
-
-    
+    margin-left: 30px;  
  }
  .four-section-img-background-content{
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
 }
+.four-section-footer-btn{
+    margin: 0px 120px;
+}
 
+/* Five section start */
 
-
+.five-section-column-one > h1{
+    font-size: 1.5rem;
+    color: #131318;
+}
+.five-section-column-two > img{
+    width: 95%;
+    margin: 10px;
+}
+.five-section-column-two > h3{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    top: 80px;
+    left: 80px;
+    right: 80px;
+}
+.five-section-column-one {
+    margin: 15px;
+}
 
 
 
