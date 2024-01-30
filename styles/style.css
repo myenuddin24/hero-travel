@@ -47,6 +47,7 @@ nav{
 .nav-2nd-part ul{
     display: flex;
     text-align: center;
+    
 }
 .nav-2nd-part ul li{
     list-style: none;
@@ -348,27 +349,43 @@ main{
 /* Responsive media queries */
 
 @media screen and (max-width:600px) {
-  
+
+    nav{
+        max-width: 370;
+        margin: 55px -100px;
+        padding-left: 50px;
+    }
 nav ,
 .our-popular-tour,
 .banner-input
 {
     flex-direction: column;
 }
+.nav-2nd-part ul {
+    flex-wrap: wrap;
+   padding-left: 0px;
+    margin-left: -70px;
+
+}
 .nav-2nd-part ul li{
-    margin-right: 10px;
+    margin-right: 5px;
+    
+
+}
+.nav-1st-part{
+    margin-left: -180px;
 }
 .nav-1st-part h1{
-    padding-right: 230px;
+    padding-right: 30px;
     font-size: 1.4rem;
-    
+   
 }
 .nav-2nd-part {
-    padding-right: 35px;
+    /* padding-right: 50px; */
    
 }
 .header-banner{
-    width: 100%;
+    width: 95%;
 }
 .banner-content .banner-heading{
     color: #FFF;
@@ -394,6 +411,8 @@ nav ,
    margin-right: 0px;
    width: 250px;
 }
+
+/* First section start */
 main{
     margin-top: 30px;
 }
