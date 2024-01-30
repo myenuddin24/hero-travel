@@ -250,6 +250,88 @@ main{
     gap: 25px;
 }
 
+/* Deals & Discounts */
+
+
+.four-section-text h1{
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 100px;
+}
+.four-section-text p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 40px 265px;
+}
+.four-section-img-one{
+    background: url('../Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 55px 55px 55px 600px;
+
+}
+.four-section-img-background{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    max-width: 570px;
+    max-height: 380px;
+    padding: 50px;
+    
+}
+.four-section-img-background-content{
+    display: flex;
+    gap: 25px;
+}
+.four-section-img-background > h2{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.four-section-img-background > p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.four-section-img-background > h4{
+    color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.four-section-img-background > button{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 15px 25px;
+    border: none;
+}
+.fa{
+    color: #FF5400;
+    margin-right: 10px;
+}
+.four-section-span{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.four-section-img-two{
+    background: url('../Images/Group\ 40.png');
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 55px 600px 55px 55px;
+    
+}
+
 
 
 
@@ -324,7 +406,9 @@ main{
     font-size: 1.25rem;
 }
 .first-section-second-column img{
-    width: 100%;
+    width: 95%;
+    margin-right: 10px;
+    margin-left: 10px;
     margin-top: 40px;  
 }
 
@@ -336,21 +420,26 @@ main{
 }
 .second-section-img-first-line{
     grid-template-columns: repeat(1,1fr);
-    width: 100%;
+    width: 95%;
+    margin-right: 10px;
+    margin-left: 10px;
 
 }
 .second-section-img-second-line{
     grid-template-columns: repeat(1,1fr);
-    width: 100%;
+    width: 95%;
+    margin-right: 10px;
+    margin-left: 10px;
     
 }
 .second-section-img-third-line{
     grid-template-columns: repeat(1,1fr);
-    width: 100%;
-    
+    width: 95%;
+    margin-right: 10px;
+    margin-left: 10px;
 }
  .second-section-first-part p{
-    margin: 20px 5px;
+    margin: 20px 10px;
  }   
  .second-section-first-part h1{
     font-size: 1.25rem;
@@ -366,17 +455,59 @@ main{
     margin-top: 30px;
  }
  .third-section-text-part p{
-    margin: 10px;
+    margin: 15px;
  }
  .third-section-card-first-line{
     grid-template-columns: repeat(1,1fr);
-    margin: 5px;
+    margin: 10px;
     margin-top: 20px;
  }
  .third-section-card-second-line{
     margin: 5px;
     margin-top: 25px;
  }
+
+/* Four Section */
+
+
+ .four-section-text h1{
+    font-size: 1.5rem;
+    margin-top: 30px;
+ }
+ .four-section-text p{
+    margin: 15px;
+ }
+ .four-section-img-one{
+    width: 90%;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 16px 16px 50px 16px;
+    
+ }
+ .four-section-img-two{
+    width: 90%;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 16px 16px 50px 16px;
+ }
+ .four-section-img-background{
+    padding: 20px;
+    width: 70%;
+    margin-top: 60px;
+    margin-left: 30px;
+   
+
+    
+ }
+ .four-section-img-background-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+
+
+
 
 
 }
