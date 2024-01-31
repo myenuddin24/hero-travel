@@ -759,8 +759,14 @@ main{
     margin: 10px;
 }
 .six-section-column-two > .save-up-part{
-    bottom: 55px;
-    right: 20px;
+    bottom: 40px;
+    right: 18px;
+}
+.save-up-part > h2{
+    font-size: 1.25rem;
+}
+.save-up-part > p{
+    font-size: 1rem;
 }
 
 /* Footer part start */
